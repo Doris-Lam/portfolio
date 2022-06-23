@@ -90,9 +90,9 @@ header {
     width: 483px;
     font-family: 'Calibri Light';
     font-size: 15px;
-    color: white;
+    color: #ADD8E6;
     overflow: hidden;
-    border-right: .2em solid #750075;
+    border-right: .2em solid #5582c7;
     white-space: nowrap;
     letter-spacing: .15em;
     animation:
@@ -107,8 +107,11 @@ header {
 
 @keyframes blink-caret {
     from, to { border-color: transparent }
-    50% { border-color: #750075; }
+    50% { border-color: #5582c7; }
 
 }
 /* Home */
 
+/* About*/
+
+/* About*/
