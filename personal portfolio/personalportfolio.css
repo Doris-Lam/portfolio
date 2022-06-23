@@ -14,7 +14,10 @@ html {
 }
 
 header {
+    position: fixed; /* Set the navbar to fixed position */
     display: flex;
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */
     justify-content: flex-end;
     align-items: center;
     padding: 30px 05%;
@@ -64,8 +67,9 @@ header {
 
 /* Home */
 .home {
+    margin-top: 30px;
     padding-left: 300px;
-    padding-top: 250px;
+    padding-top: 300px;
     font-family: "Montserrat", sans-serif;
     font-size: 95px;
     flex-direction: column;
@@ -79,17 +83,18 @@ header {
 
 
 .typewriter {
+    padding-top: 5px;
     display: block;
     width: 483px;
     font-family: 'Calibri Light';
     font-size: 15px;
     color: white;
     overflow: hidden;
-    border-right: .25em solid #750075;
+    border-right: .2em solid #750075;
     white-space: nowrap;
     letter-spacing: .15em;
     animation:
-            typing 4.5s steps(30, end),
+            typing 3.5s steps(30, end),
             blink-caret .5s step-end infinite;
 }
 
@@ -101,6 +106,7 @@ header {
 @keyframes blink-caret {
     from, to { border-color: transparent }
     50% { border-color: #750075; }
+
 }
 /* Home */
 
