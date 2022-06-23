@@ -21,7 +21,7 @@ header {
     justify-content: flex-end;
     align-items: center;
     padding: 30px 05%;
-    background-color: #111111;
+    background-color: #040d17;
 }
 
 .nav__links {
@@ -48,13 +48,13 @@ header {
 }
 
 .nav__links li a:hover {
-    color: #a300a3;
+    color: #5d88c8;
 }
 
 .cta {
     margin-left: 20px;
     padding: 9px 20px;
-    background-color: #a300a3;
+    background-color: #5582c7;
     border: none;
     border-radius: 50px;
     cursor: pointer;
@@ -62,7 +62,7 @@ header {
 }
 
 .cta:hover {
-    background-color: #750075;
+    background-color: #2a4b7c;
 }
 
 /* Home */
@@ -78,7 +78,9 @@ header {
     height: 100vh;
     color: white;
     background-color: black;
-    background-image: linear-gradient(62deg, #3a3d40 0%, #181719 100%);
+    background-image: url('https://www.teahub.io/photos/full/1-16908_outer-space-stars-wallpaper-space-wallpaper-stars.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 
