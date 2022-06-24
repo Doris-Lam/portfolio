@@ -6,6 +6,15 @@ html {
     scroll-behavior: smooth;
 }
 
+::-moz-selection { /* highlights :)*/
+    background: #268ed3;
+}
+
+::selection {
+    background: #268ed3;
+}
+/* layout */
+
 /* navbar*/
 * {
     box-sizing: border-box;
@@ -83,7 +92,6 @@ header {
     background-size: cover;
 }
 
-
 .typewriter {
     padding-top: 5px;
     display: block;
@@ -114,7 +122,6 @@ header {
 
 /* About*/
 
-
 .about-wallpaper {
     text-align: center;
     padding: 20rem;
@@ -139,3 +146,4 @@ header {
 
 }
 /* About*/
+
