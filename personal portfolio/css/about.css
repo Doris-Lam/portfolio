@@ -1,11 +1,11 @@
 /* About*/
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap');
 
 .about-wallpaper {
     text-align: center;
     padding: 20rem;
     background-color: black;
     height: 90vh;
-
 }
 
 .about-picture {
@@ -16,12 +16,55 @@
 
 .text {
     position: static;
-    margin-left: 30px;
-    margin-top: -550px;
+    margin-left: 60px;
+    margin-top: -560px;
     font-family: "Montserrat", sans-serif;
     font-size: 25px;
     color: white;
 
+}
+
+.text2 {
+    position: static;
+    margin-left: -135px;
+    margin-top: 20px;
+    font-family: 'Nunito', sans-serif;
+    font-size: 25px;
+    color: white;
+}
+
+.text3 {
+    width: 800px;
+    text-align: left;
+    position: static;
+    margin-left: 313px;
+    margin-top: 20px;
+    font-family: 'Nunito', sans-serif;
+    font-size: 20px;
+    color: #E6E6E6 ;
+}
+
+.buttons{
+    padding-top: 9px;
+    margin-top: 40px;
+    margin-left: -125px;
+    width: 50px;
+    height: 50px;
+    background: #5d88c8;
+    color: black;
+    display: inline-flex;
+    justify-content: center;
+    cursor: pointer;
+    border-radius: 50%;
+    border: none;
+    text-decoration: none;
+    transition: transform 0.2s ease;
+}
+
+.buttons:hover{
+    transform: translate(-6px, -6px);
+    background-color: #2a4b7c;
+    box-shadow: 2px 2px #3762a4;
 }
 /* About*/
 

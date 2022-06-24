@@ -19,8 +19,8 @@
 .typewriter {
     padding-top: 5px;
     display: block;
-    width: 483px;
-    font-family: 'Calibri Light';
+    width: 518px;
+    font-family: 'Nunito', sans-serif;
     font-size: 15px;
     color: #ADD8E6;
     overflow: hidden;
@@ -34,7 +34,7 @@
 
 @keyframes typing {
     from {width: 0}
-    to {width: 40%}
+    to {width: 43%}
 }
 
 @keyframes blink-caret {

@@ -25,9 +25,9 @@ header {
 .nav__links a,
 .cta,
 .overlay__content a {
-    font-family: 'Varela Round', sans-serif;
+    font-family: 'Nunito', sans-serif;
     font-size: 18px;
-    font-weight: 500;
+    font-weight: 100;
     color: #edf0f1;
     text-decoration: none;
 }
@@ -41,7 +41,7 @@ header {
 }
 
 .nav__links li a:hover {
-    color: #5d88c8;
+    color: #5582c7;
 }
 
 .cta {
