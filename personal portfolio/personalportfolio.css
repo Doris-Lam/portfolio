@@ -53,7 +53,7 @@ header {
 
 .cta {
     margin-left: 20px;
-    padding: 9px 20px;
+    padding: 8px 20px;
     background-color: #5582c7;
     border: none;
     border-radius: 50px;
@@ -117,19 +117,25 @@ header {
 
 .about-wallpaper {
     text-align: center;
-    padding: 20rem 2rem;
+    padding: 20rem;
     background-color: black;
+    height: 90vh;
 
 }
 
 .about-picture {
-    position: absolute;
-    top: 840px;
-    left: 100px;
-
+    position: static;
+    margin-left: -800px;
+    margin-top: -250px;
 }
 
 .text {
+    position: static;
+    margin-left: 30px;
+    margin-top: -550px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 25px;
     color: white;
+
 }
 /* About*/
