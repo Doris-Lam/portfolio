@@ -1,0 +1,27 @@
+/* About*/
+
+.about-wallpaper {
+    text-align: center;
+    padding: 20rem;
+    background-color: black;
+    height: 90vh;
+
+}
+
+.about-picture {
+    position: static;
+    margin-left: -800px;
+    margin-top: -250px;
+}
+
+.text {
+    position: static;
+    margin-left: 30px;
+    margin-top: -550px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 25px;
+    color: white;
+
+}
+/* About*/
+
