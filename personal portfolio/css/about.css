@@ -4,14 +4,15 @@
 .about-wallpaper {
     text-align: center;
     padding: 20rem;
+    width: 100%;
     background-color: black;
-    height: 90vh;
+    height: 105vh;
 }
 
 .about-picture {
     position: static;
     margin-left: -800px;
-    margin-top: -250px;
+    margin-top: -180px;
 }
 
 .text {
