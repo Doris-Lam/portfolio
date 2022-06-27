@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap');
 
 .about-wallpaper {
+    position: static;
     text-align: center;
     padding: 20rem;
     width: 100%;
@@ -46,6 +47,7 @@
 }
 
 .buttons{
+    position: static;
     padding-top: 9px;
     margin-top: 40px;
     margin-left: -125px;
@@ -63,6 +65,7 @@
 }
 
 .buttons:hover{
+    position: static;
     transform: translate(-6px, -6px);
     background-color: #2a4b7c;
     box-shadow: 2px 2px #3762a4;

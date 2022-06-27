@@ -1,5 +1,6 @@
 /* Home */
 .home {
+    position: static;
     margin-top: 30px;
     padding-left: 300px;
     padding-top: 300px;
@@ -17,6 +18,7 @@
 }
 
 .typewriter {
+    position: static;
     padding-top: 5px;
     display: block;
     width: 518px;
