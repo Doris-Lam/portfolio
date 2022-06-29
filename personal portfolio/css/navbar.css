@@ -26,7 +26,7 @@ header {
 .cta,
 .overlay__content a {
     font-family: 'Nunito', sans-serif;
-    font-size: 18px;
+    font-size: 1.2vw;
     font-weight: 100;
     color: #edf0f1;
     text-decoration: none;
@@ -38,6 +38,8 @@ header {
 
 .nav__links li a:hover {
     color: #5582c7;
+    padding-bottom: 05px;
+    border-bottom: 1px solid #5582c7;
 }
 
 .cta {

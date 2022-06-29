@@ -11,38 +11,39 @@
 }
 
 .about-picture {
-    position: static;
-    margin-left: -800px;
+    margin-left: -400px;
     margin-top: -180px;
+    width: auto;
+    max-width: 100%;
+    height: auto;
 }
 
 .text {
     position: static;
-    margin-left: 60px;
+    margin-left: 13px;
     margin-top: -560px;
     font-family: "Montserrat", sans-serif;
-    font-size: 25px;
+    font-size: 1.4vw;
     color: white;
-
 }
 
 .text2 {
     position: static;
-    margin-left: -135px;
+    margin-left: -150px;
     margin-top: 20px;
     font-family: 'Nunito', sans-serif;
-    font-size: 25px;
+    font-size: 1.4vw;
     color: white;
 }
 
 .text3 {
-    width: 800px;
+    width: 90%;
     text-align: left;
     position: static;
     margin-left: 313px;
     margin-top: 20px;
     font-family: 'Nunito', sans-serif;
-    font-size: 20px;
+    font-size: 1.4vw;
     color: #E6E6E6 ;
 }
 

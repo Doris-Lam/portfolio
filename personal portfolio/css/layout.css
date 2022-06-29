@@ -16,3 +16,10 @@ html {
     background: #268ed3;
 }
 /* layout */
+
+
+img {
+    width: 100%;
+    max-width: 500px;
+    border-radius: 8px;;
+}
