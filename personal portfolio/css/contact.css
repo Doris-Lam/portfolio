@@ -1,16 +1,46 @@
-
-.footer {
-    background: black;
-    color: var(--clr-accent);
-    text-align: center;
-    padding: 2.5em 0;
-    font-size: 10px;
-
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+    margin-left: 50%;
+    font-family: "Montserrat", sans-serif;
+    font-size: 100%;
+    width: 40%; /* Full width */
+    max-width: 100%;
+    padding: 30px; /* Some padding */
+    border-radius: 15px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-bottom: 25px; /* Bottom margin */
+    resize: vertical; /* Allow the user to vertically resize the textarea (not horizontally) */
 }
 
-.footer a {
-    color: #5582c7;
-    text-decoration: none;
-    padding-left: 10px;
-    margin-top: 200px;
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+    margin-left: 50%;
+    background-color: #5582c7;
+    color: white;
+    display: block;
+    padding: 12px 50px;
+    border: none;
+    border-radius: 2100px;
+    cursor: pointer;
+    font-family: "Montserrat", sans-serif;
+    font-size: 15px;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+    background-color: #2a4b7c ;
+}
+
+/* Add a background color and some padding around the form */
+.container {
+    background-color: black;
+    padding-top: 10em;
+    padding-bottom: 8em;
+}
+
+@media screen and (max-width: 600px) {
+    .col-25, .col-75, input[type=submit] {
+        width: 100%;
+        margin-top: 0;
+    }
 }
