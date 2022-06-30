@@ -4,7 +4,6 @@ input[type=text], select, textarea {
     font-family: "Montserrat", sans-serif;
     font-size: 100%;
     width: 40%; /* Full width */
-    max-width: 100%;
     padding: 30px; /* Some padding */
     border-radius: 15px; /* Rounded borders */
     box-sizing: border-box; /* Make sure that padding and width stays in place */
@@ -13,6 +12,7 @@ input[type=text], select, textarea {
     background-color: black;
     border-color: #5582c7;
     border-width: 3px;
+    color: white;
 }
 
 /* Style the submit button with a specific background color etc */
@@ -20,16 +20,15 @@ input[type=submit] {
     margin-left: 50%;
     background-color: #5582c7;
     color: white;
-    display: block;
     padding: 12px 50px;
     border: none;
     border-radius: 2100px;
     cursor: pointer;
     font-family: "Montserrat", sans-serif;
-    font-size: 15px;
+    font-size: 1vw;
 }
 
-/* When moving the mouse over the submit button, add a darker green color */
+/* When moving the mouse over the submit button, add a darker blue color */
 input[type=submit]:hover {
     background-color: #2a4b7c ;
 }
@@ -37,8 +36,8 @@ input[type=submit]:hover {
 /* Add a background color and some padding around the form */
 .container {
     background-color: black;
-    padding-top: 10em;
-    padding-bottom: 8em;
+    padding-top: 08em;
+    padding-bottom: 24em;
 }
 
 @media screen and (max-width: 600px) {
@@ -46,4 +45,24 @@ input[type=submit]:hover {
         width: 100%;
         margin-top: 0;
     }
+}
+
+.contact-text {
+    padding-left: 100px;
+    margin-top: -440px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 2.4vw;
+    color: white;
+    width: 100%;
+}
+
+.text4 {
+    margin-top: 10px;
+    width: 35%;
+    text-align: left;
+    position: static;
+    margin-left: 100px;
+    font-family: 'Nunito', sans-serif;
+    font-size: 1.4vw;
+    color: #E6E6E6 ;
 }

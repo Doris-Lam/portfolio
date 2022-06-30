@@ -16,7 +16,7 @@
 
 .typewriter {
     position: static;
-    width: 522px;
+    width: 553px;
     font-family: 'Nunito', sans-serif;
     font-size: 15px;
     color: #ADD8E6;
@@ -31,7 +31,7 @@
 
 @keyframes typing {
     from {width: 0}
-    to {width: 45%}
+    to {width: 46%}
 }
 
 @keyframes blink-caret {
